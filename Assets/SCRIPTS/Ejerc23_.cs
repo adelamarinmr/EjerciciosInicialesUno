@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Ejerc23_ : MonoBehaviour
 {
-    int vidas = 12;
-    float exp = 26.1f;
-
+    int vidas = 10;
+    float exp = 2.5f;
+    float multi,coci,rest,dob,trip;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        multi = vidas * exp;
+        coci = vidas / exp;
+        rest = vidas - exp;
+        dob = 2 * exp;
+        trip = 3 * exp;
 
+        Debug.Log(multi);
+        Debug.Log(coci);
+        Debug.Log(rest);
+        Debug.Log(dob);
+        Debug.Log(trip);
+        
 
 
 

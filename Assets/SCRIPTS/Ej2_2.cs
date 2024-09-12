@@ -5,8 +5,8 @@ using UnityEngine;
 public class Ejercicio2_ : MonoBehaviour
 {
     int vidas = 10;
-    float exp=48.2f;
-    char carac='B';
+    float exp=6.8f;
+    char carac='c';
 
 
 
@@ -16,8 +16,15 @@ public class Ejercicio2_ : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
 
+        float resultadoSuma;
+        float resultadoResta;
+
+        resultadoSuma = vidas + exp;
+        resultadoResta = vidas - exp;
+
+        Debug.Log(resultadoSuma);
+        Debug.Log(resultadoResta);
 
 
 
