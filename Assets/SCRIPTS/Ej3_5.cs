@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ej3_5 : MonoBehaviour
 {
 
-    float radio;
+    [SerializeField]float radio;
     // Start is called before the first frame update
     void Start()
     {

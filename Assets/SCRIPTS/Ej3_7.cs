@@ -5,8 +5,8 @@ using UnityEngine;
 public class Ej3_7 : MonoBehaviour
 {
 
-    float baseT;
-    float alturaT;
+    [SerializeField] float baseT;
+    [SerializeField]float alturaT;
 
     // Start is called before the first frame update
     void Start()
