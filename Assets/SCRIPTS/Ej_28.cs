@@ -30,37 +30,37 @@ public class Ej_28 : MonoBehaviour
 
        void Turno1()
        {
-            float dañoVeneno = (porcentajeVen * 1) / 100 * saludInicial;
-        vidaActual -= dañoVeneno;
+            float vidaoVeneno = (porcentajeVen * 1) / 100 * saludInicial;
+        vidaActual -= vidaoVeneno;
         Debug.Log("Turno1: vida restante= " + vidaActual);
        }
 
        void Turno2()
        {
-          float dañoVeneno = (porcentajeVen * 2) / 100 * saludInicial;
-           vidaActual -= dañoVeneno;
+          float vidaoVeneno = (porcentajeVen * 2) / 100 * saludInicial;
+           vidaActual -= vidaoVeneno;
            Debug.Log("Turno1: vida restante= " + vidaActual);
        }
 
 
        void Turno3()
        {
-          float dañoVeneno = (porcentajeVen * 3) / 100 * saludInicial;
-          vidaActual -= dañoVeneno;
+          float vidaoVeneno = (porcentajeVen * 3) / 100 * saludInicial;
+          vidaActual -= vidaoVeneno;
           Debug.Log("Turno1: vida restante= " + vidaActual);
        }
 
        void Turno4()
        {
-          float dañoVeneno = (porcentajeVen * 4) / 100 * saludInicial;
-          vidaActual -= dañoVeneno;
+          float vidaoVeneno = (porcentajeVen * 4) / 100 * saludInicial;
+          vidaActual -= vidaoVeneno;
           Debug.Log("Turno1: vida restante= " + vidaActual);
        }
 
        void Turno5()
        {
-          float dañoVeneno = (porcentajeVen * 5) / 100 * saludInicial;
-          vidaActual -= dañoVeneno;
+          float vidaoVeneno = (porcentajeVen * 5) / 100 * saludInicial;
+          vidaActual -= vidaoVeneno;
           Debug.Log("Turno1: vida restante= " + vidaActual);
        }
 
