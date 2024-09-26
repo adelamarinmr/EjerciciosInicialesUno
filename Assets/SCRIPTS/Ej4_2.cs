@@ -5,8 +5,8 @@ using UnityEngine;
 public class Ej4_2 : MonoBehaviour
 {
     string nombre = "Laura";
-    string apellido = "González";
-    string apellido2 = "Marín";
+    string apellido = "Gonz?lez";
+    string apellido2 = "Mar?n";
     int edad = 20;
 
     // Start is called before the first frame update
