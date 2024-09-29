@@ -8,7 +8,7 @@ public class Ej5_1 : MonoBehaviour
     [SerializeField] int vidaP2;
 
 
-    // Start is called before the first frame update
+    // if-else pq es una comparacióny == era igual a
     void Start()
     {
 
